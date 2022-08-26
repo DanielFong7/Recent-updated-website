@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A simple website to test my web developing skills">
+        <meta name="author" content="Daniel Fong">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="main.css" rel="stylesheet">
+
+        <title>A reactive website to test my skills</title>
+
+
+    </head>
+
+    <body>
+        <header>
+                        <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg fixed-top-sticky">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="main.html"><i class="bi bi-fire" style="font-size: 3rem; color:rgb(225, 41, 99);"></i></a>
+
+ 
+
+                      <!--Toggle Down Meno-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">About Page</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        
+                        <li>
+                          <a class="nav-link" href="about.html" style="color:rgb(225, 41, 99);">About Me</a>
+                        </li>
+                        <li>
+                          <a class="nav-link" href="hobby.html" style="color:rgb(225, 41, 99);">Hobbies</a>
+                        </li>
+                        <li>
+                          <a class="nav-link" href="music.html" style="color:rgb(225, 41, 99);">Music</a>
+                        </li>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-6 mt-2 text-center">
+                    <h1>About Me</h1>
+                    <p></p>
+
+                </div>
+
+            </div>
+            <br>
+            <div class="container-fluid bg-light mb-5" id="firstSec">
+              <div class="row justify-content-center animate__animated animate__fadeIn">
+                <div class="title1 text-center">
+                  <h1>Places I've Been To</h1>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid bg-dark py-3">
+              <div class="row animate__animated animate__slideInLeft">
+                
+    
+              </div>
+              
+              <div class="container-fluid">
+               <div class="row animate__animated animate__slideInLeft">
+                 <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                   <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner">
+                       <div class="carousel-item active">
+                         <img src="images/bal1.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/bal2.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/bal3.jpg" class="d-block w-100" alt="...">
+                       </div>
+                     </div>
+                   </div>
+
+
+                 </div>
+                 <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                  <h1>BALI</h1>
+                   <p>Test</p>
+                   <p>test</p>
+                 </div>
+
+               </div>
+               <br>
+               <div class="row animate__animated animate__slideInRight">
+                 
+
+               </div>
+
+               <div class="container-fluid">
+                 <div class=" row justify-content-left-lg flex-lg-row-reverse flex-md-row-reverse">
+                   <div class="uspcol-sm-12 col-md-6 col-lg-4 p-3">
+
+                     <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <img src="images/au.jpg" class="d-block w-100" alt="...">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="images/au2.jpg" class="d-block w-100" alt="...">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="images/au3.jpg" class="d-block w-100" alt="...">
+                         </div>
+                       </div>
+                     </div>
+
+
+
+
+
+
+                   </div>
+                   <div class="uspcol-sm-4 col-md-6 col-lg-8">
+                    <h1>Australia</h1>
+                     <p>Test</p>
+                     <p>test</p>
+                   </div>
+                   
+
+
+                 </div>
+                 <br>
+                 <div class="row animate__animated animate__slideInLeft">
+                   
+                   <div class="container-fluid py-3">
+                     <div class="row animate__animated animate__slideInLeft">
+                       <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                         <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+                           <div class="carousel-inner">
+                             <div class="carousel-item active">
+                               <img src="images/vn1.jpg" class="d-block w-100" alt="...">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="images/vn2.jpg" class="d-block w-100" alt="...">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="images/vnwm.jpg" class="d-block w-100" alt="...">
+                             </div>
+                           </div>
+                         </div>
+
+
+             
+                       </div>
+                       <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                        <h1>Vietnam</h1>
+                         <p>test</p>
+                         <P>Test</P>
+                         <p>Test</p>
+                         <p>Test</p>
+                       </div>
+
+                     </div>
+
+                   </div>
+
+                 </div>
+
+
+               </div>
+
+
+               
+             
+              </div>
+              
+
+
+
+
+
+
+
+
+
+              
+            </div>
+
+            <div class="container-fluid bg-light mt-3" id="thirdSec">
+              <div class="row justify-content-center animate__animated animate__fadeIn">
+                <div class="title1 text-center">
+                  <h1>Sports I've Done</h1>
+                </div>
+              </div>
+
+              
+
+            </div>
+            <div class="container-fluid bg-dark py-3" id="fithSec">
+              <div class="row animate__animated animate__slideInLeft">
+                
+    
+              </div>
+              
+              <div class="container-fluid">
+               <div class="row animate__animated animate__slideInLeft">
+                 <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                   <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner">
+                       <div class="carousel-item active">
+                         <img src="images/football1.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/football2.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/football3.jpg" class="d-block w-100" alt="...">
+                       </div>
+                     </div>
+                   </div>
+
+
+                 </div>
+                 <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                  <h1>FOOTBAL</h1>
+                   <p>Football was a sport that I use to play alot when I was at a very young age.</p>
+                   <p>So much so that i joined my High-Shool's football team for a year.</p>
+                 </div>
+
+               </div>
+               <br>
+               <div class="row animate__animated animate__slideInRight">
+                 
+
+               </div>
+
+               <div class="container-fluid">
+                 <div class=" row justify-content-left-lg flex-lg-row-reverse flex-md-row-reverse">
+                   <div class="uspcol-sm-12 col-md-6 col-lg-4 p-3">
+
+                     <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
+                       <div class="carousel-inner">
+                         <div class="carousel-item active">
+                           <img src="images/ar1.jpg" class="d-block w-100" alt="...">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="images/ar2.jpg" class="d-block w-100" alt="...">
+                         </div>
+                         <div class="carousel-item">
+                           <img src="images/ar3.jpg" class="d-block w-100" alt="...">
+                         </div>
+                       </div>
+                     </div>
+
+
+
+
+
+
+                   </div>
+                   <div class="uspcol-sm-4 col-md-6 col-lg-8">
+                    <h1>ARCHERY</h1>
+                     <p>I picked up archery when i was about 15.</p>
+                     <p>I was alwasy into sports that have the act of shooting, so archery was the closes I could get to do.</p>
+                   </div>
+                   
+
+
+                 </div>
+                 <br>
+                 <div class="row animate__animated animate__slideInLeft">
+                   
+                   <div class="container-fluid py-3">
+                     <div class="row animate__animated animate__slideInLeft">
+                       <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                         <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
+                           <div class="carousel-inner">
+                             <div class="carousel-item active">
+                               <img src="images/camp1.jpg" class="d-block w-100" alt="...">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="images/camp2.jpg" class="d-block w-100" alt="...">
+                             </div>
+                             <div class="carousel-item">
+                               <img src="images/camp3.jpg" class="d-block w-100" alt="...">
+                             </div>
+                           </div>
+                         </div>
+
+
+             
+                       </div>
+                       <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                        <h1>CAMPING</h1>
+                         <p>I have only been camping twice but the trips where quite unique.</p>
+                         <P>Both trips i had to kayak to an island near Pangkor.</P>
+                         <p>And on that island there were no civilisation, it was all totally nature.</p>
+                         <p>Both trips i camped there for about 2 days then kayaked back to the main land.</p>
+                       </div>
+
+                     </div>
+
+                   </div>
+
+                 </div>
+
+
+               </div>
+
+
+               
+             
+              </div>
+              
+
+
+
+
+
+
+
+
+
+              
+            </div>
+
+            
+
+            
+
+
+
+        </main>
+
+        
+
+        
+
+
+
+
+        <footer class="footer-container bg-dark text-center text-white mt-4">
+            <!-- Grid container -->
+            <div class="row">
+              <!-- Section: Social media -->
+              <section class="mb-2">
+                <h6>Details</h6>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-spotify"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center bg-dark px-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white">Daniel Fong</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
